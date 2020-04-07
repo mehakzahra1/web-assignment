@@ -7,8 +7,8 @@
   "author": "anon",
   "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "yarn tailwind:css && webpack-dev-server --mode development",
+    "test": "echo \"Errocdr: no test specified\" && exit 1",
+    "dev": "npm run tailwind:css && webpack-dev-server --mode development",
     "build": "webpack --mode production",
     "tailwind:css": "tailwind build src/styles.css -c  tailwind.config.js -o src/tailwind.css",
     "bundle:view": "webpack --profile --json > stats.json && webpack-bundle-analyzer bundle/output/path/stats.json"
